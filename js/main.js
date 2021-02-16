@@ -8,18 +8,3 @@ var adornos = document.getElementsByClassName("adorno");
 for( var i=0; i<adornos.length; i++){
     adornos[i].addEventListener('click', changeColorBackground, false);
 }
-
-// Funcion para cambiar color
-function changeColorBackground() {
-	var num = getRandomNumber(0, colores.length - 1);
-    this.style.backgroundColor = colores[num];
-};
-
-// Funcion para obtener un numero aleatorio
-function getRandomNumber(min, max) {
-  var offset = min;
-  var range = (max - min) + 1;
-
-  var randomNumber = Math.floor( Math.random() * range) + offset;
-  return randomNumber;
-}
