@@ -3,3 +3,14 @@ var colores = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","B
 
 // Vector con todos los adornos
 var adornos = document.getElementsByClassName("adorno");
+
+
+var TurnOnLED = document.getElementById('adorno-1');
+function turnOn(){
+    TurnOnLED.style.background = "yellow";
+    // setTimeout(function(){ TurnOnLED.style.background = "black"; },2000);
+}
+
+TurnOnLED.addEventListener('click', function(){
+    turnOn();
+});
