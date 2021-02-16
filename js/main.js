@@ -13,3 +13,18 @@ adornos[6].addEventListener("mouseout", function( ) {
     adornos[6].classList.add("black");
     adornos[6].classList.remove("yellow");
   });
+
+var TurnOnLED = document.getElementById('adorno-1');
+function turnOn(){
+    TurnOnLED.style.background = "yellow";
+    // setTimeout(function(){ TurnOnLED.style.background = "black"; },2000);
+}
+
+TurnOnLED.addEventListener('click', function(){
+    turnOn();
+});
+
+
+function metodoJorge(){
+    
+}
