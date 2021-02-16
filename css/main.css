@@ -100,6 +100,10 @@ body {
 			top: 370px;
 			margin-left: 145px;
 		}
+
+		.yellow {
+			background:yellow;
+		}
 	
 	/* Estrella */
 	#estrella {
