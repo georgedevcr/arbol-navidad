@@ -4,10 +4,6 @@ var colores = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","B
 // Vector con todos los adornos
 var adornos = document.getElementsByClassName("adorno");
 
-// Asignamos el evento click a cada adorno con la funcion de cambiar color
-for( var i=0; i<adornos.length; i++){
-    // adornos[i].addEventListener('click', changeColorBackground, false);
-}
 
 var TurnOnLED = document.getElementById('adorno-1');
 function turnOn(){
