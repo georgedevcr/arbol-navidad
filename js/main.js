@@ -14,3 +14,8 @@ function turnOn(){
 TurnOnLED.addEventListener('click', function(){
     turnOn();
 });
+
+
+function metodoJorge(){
+    
+}
