@@ -19,3 +19,11 @@ TurnOnLED.addEventListener('click', function(){
 function metodoJorge(){
     
 }
+
+function ToggleAdorno(adorno)
+{
+    if(adorno.style.background)
+        adorno.style = undefined;
+    else
+        adorno.style.background = "#fdde03";
+}
