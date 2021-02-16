@@ -153,10 +153,22 @@ var colores = [
 var adornos = document.getElementsByClassName("adorno");
 let adorno = document.getElementById("adorno-4");
 
+<<<<<<< HEAD
 adorno.addEventListener("mouseover", () => {
   adorno.style.backgroundColor = "YellowGreen";
 });
 
 adorno.addEventListener("mouseleave", () => {
   adorno.style.backgroundColor = "Black";
+=======
+
+var TurnOnLED = document.getElementById('adorno-1');
+function turnOn(){
+    TurnOnLED.style.background = "yellow";
+    // setTimeout(function(){ TurnOnLED.style.background = "black"; },2000);
+}
+
+TurnOnLED.addEventListener('click', function(){
+    turnOn();
+>>>>>>> f0bfb0f17ac9f49ae9fa1661d35048dc9b110a3e
 });
