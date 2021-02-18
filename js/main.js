@@ -5,17 +5,6 @@ var colores = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","B
 var adornos = document.getElementsByClassName("adorno");
 
 
-var TurnOnLED = document.getElementById('adorno-1');
-function turnOn(){
-    TurnOnLED.style.background = "yellow";
-    // setTimeout(function(){ TurnOnLED.style.background = "black"; },2000);
-}
-
-TurnOnLED.addEventListener('click', function(){
-    turnOn();
-});
-
-
-function metodoJorge(){
-    
-}
+function changeBackgroundColor(){
+    document.getElementById('adorno-2').style.backgroundColor = 'blue';
+} //Cuando se le da click a la bolita #2, cambia a color azul.
